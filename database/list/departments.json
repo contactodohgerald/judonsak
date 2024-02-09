@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Finance",
+    "slug": "finance",
+    "description": "Manages All Financial Responsibilities"
+  },
+  {
+    "name": "Tech",
+    "slug": "tech",
+    "description": "Manages All Technological Responsibilities"
+  },
+  {
+    "name": "Tax",
+    "slug": "professionals",
+    "description": "Manages All Tax Related Responsibilities"
+  },
+  {
+    "name": "Operations",
+    "slug": "operations",
+    "description": "Manages the Company's Operations"
+  },
+  {
+    "name": "Sales & Business",
+    "slug": "sales_and_business",
+    "description": "Manages All Company Clients"
+  },
+  {
+    "name": "Partners",
+    "slug": "partners",
+    "description": "Manages All Company Clients"
+  },
+  {
+    "name": "DSS",
+    "slug": "dss",
+    "description": "DSS Description"
+  },
+  {
+    "name": "Human Resources",
+    "slug": "hr",
+    "description": "Responsible for managing the employee life cycle (recruiting, hiring, onboarding, training)"
+  },
+  {
+    "name": "Intel and Comms",
+    "slug": "intel_and_comms",
+    "description": "HR Description"
+  },
+  {
+    "name": "Logistics",
+    "slug": "logistics",
+    "description": "Logistics Description"
+  }
+]

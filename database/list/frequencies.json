@@ -1,0 +1,6 @@
+[
+	{"name":"Annually","description":"Every Year"},
+	{"name":"Bi-Annually","description":"Every Six Months"},
+	{"name":"Quaterly","description":"Every Four Months"},
+	{"name":"Monthly","description":"Every Month"}
+]

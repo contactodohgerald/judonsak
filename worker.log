@@ -1,0 +1,2027 @@
+
+
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+  Please use the argument -v to see more details.
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+  Please use the argument -v to see more details.
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+  Exception trace:
+
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+
+   Symfony\Component\Debug\Exception\FatalThrowableError  : Class 'Aws\Sqs\SqsClient' not found
+
+  at /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/Connectors/SqsConnector.php:26
+    22|             $config['credentials'] = Arr::only($config, ['key', 'secret', 'token']);
+    23|         }
+    24| 
+    25|         return new SqsQueue(
+  > 26|             new SqsClient($config), $config['queue'], $config['prefix'] ?? ''
+    27|         );
+    28|     }
+    29| 
+    30|     /**
+
+  Exception trace:
+
+  1   Illuminate\Queue\Connectors\SqsConnector::connect()
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:157
+
+  2   Illuminate\Queue\QueueManager::resolve("sqs")
+      /var/www/taxitmanager/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php:138
+
+  Please use the argument -v to see more details.
+[2019-01-04 02:46:24][2] Processing: App\Jobs\SendTaskEmail
+[2019-01-04 02:46:30][2] Processed:  App\Jobs\SendTaskEmail
+[2019-01-07 12:48:06][1] Processing: App\Jobs\SendTaskEmail
+[2019-01-07 12:48:13][1] Processed:  App\Jobs\SendTaskEmail
+[2019-01-11 15:54:40][1] Processing: App\Jobs\SendTaskEmail
+[2019-01-11 15:54:49][1] Processed:  App\Jobs\SendTaskEmail
+[2019-01-11 15:55:10][2] Processing: App\Jobs\SendTaskEmail
+[2019-01-11 15:55:13][2] Processed:  App\Jobs\SendTaskEmail
+[2019-01-14 12:52:39][1] Processing: App\Jobs\SendTaskEmail
+[2019-01-14 12:52:50][1] Processed:  App\Jobs\SendTaskEmail
+[2019-01-18 17:51:24][1] Processing: App\Jobs\SendTaskEmail
+[2019-01-18 17:51:31][1] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 09:29:35][1] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:37][2] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:38][5] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:38][6] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:38][4] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:38][7] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:38][3] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:40][8] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:42][5] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:42][3] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:42][1] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:42][2] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:42][6] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:42][7] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:42][4] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:43][9] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:43][11] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:43][10] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][9] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][12] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][13] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][11] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][10] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][14] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][12] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][13] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][15] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:44][16] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][14] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][17] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][16] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][18] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][15] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][17] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][8] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][18] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][20] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:45][19] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][21] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][22] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][23] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][20] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][19] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][24] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][21] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][22] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:46][25] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][26] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][23] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][25] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][24] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][27] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][28] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][29] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][26] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][31] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][30] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:47][27] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][28] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][29] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][32] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][33] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][30] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][31] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][35] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][34] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][33] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][32] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][36] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][35] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][37] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][34] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][38] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][36] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:48][37] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][39] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][40] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][38] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][41] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][39] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][40] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][42] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][41] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][43] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:49][42] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:50][44] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:50][43] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:50][45] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:50][44] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:50][45] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:51][46] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:51][47] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:51][46] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:51][47] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:51][48] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:51][48] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:52][49] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:52][50] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:52][51] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:52][49] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:52][50] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:52][52] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][51] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][53] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][54] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][52] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][55] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][53] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][54] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][55] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][56] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][57] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][56] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:53][57] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][58] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][59] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][58] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][60] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][59] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][61] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][60] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:54][61] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:55][63] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:55][64] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:55][62] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:55][65] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:55][63] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:55][64] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:55][62] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][65] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][66] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][67] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][68] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][69] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][67] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][66] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][68] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][70] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:56][69] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][70] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][73] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][74] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][75] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][77] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][71] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][76] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][72] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][78] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][73] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][72] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][76] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][75] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][71] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][74] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][77] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][78] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][82] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][84] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][79] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][81] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][83] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][80] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:57][85] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][86] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][82] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][79] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][81] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][80] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][83] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][85] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][86] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][84] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][87] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][88] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][90] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][91] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][89] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][92] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][90] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][89] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][94] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][93] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][88] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][91] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][87] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][92] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][94] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][93] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][96] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:58][95] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][99] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][97] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][100] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][98] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][95] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][96] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][99] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][100] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][98] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][103] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][101] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][104] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][102] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][97] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][106] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][107] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][105] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][103] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][101] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][102] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][104] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][107] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][106] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][105] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:29:59][108] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][110] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][109] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][109] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][110] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][108] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][113] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][111] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][115] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][116] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][112] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][117] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][114] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][113] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][117] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][116] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][111] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][115] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][114] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][112] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:00][118] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][118] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][122] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][120] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][124] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][119] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][121] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][123] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][125] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][121] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][124] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][120] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][119] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][123] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][122] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][125] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][126] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][126] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][127] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:30:01][127] Failed:     App\Jobs\SendTaskEmail
+[2019-03-25 09:31:28][84] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:31:28][97] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:31:31][108] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 09:31:37][108] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 09:31:37][84] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 09:31:38][97] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:05:07][4] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:07][1] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:07][2] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:07][3] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:08][5] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:08][6] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:08][7] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:09][8] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:05:48][9] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:17][10] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:22][11] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:22][12] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:24][13] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:26][14] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:29][15] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:37][1] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:57][2] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:06:58][10] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:06:58][3] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:07:02][12] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:07:03][4] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:07:04][11] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:07:04][5] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:07:05][15] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:07:05][6] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:07:11][1] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:07:11][7] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:07:17][16] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:07:22][2] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:07:22][9] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:07:37][17] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:07][14] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:10][18] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:15][19] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:15][20] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:25][21] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:25][22] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:30][3] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:08:46][4] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:07][3] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:09:07][5] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:08][6] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:13][7] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:16][22] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:09:16][17] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:16][23] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:26][4] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:09:26][24] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:26][25] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:27][26] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:38][6] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:09:38][27] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:40][5] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:09:40][18] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:52][26] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:09:52][25] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:09:52][19] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:09:52][20] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:01][24] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:02][21] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:07][7] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:08][17] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:08][28] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:08][29] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:18][20] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:18][30] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:22][28] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:23][31] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:27][18] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:27][32] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:29][21] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:30][33] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:30][30] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:30][34] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:31][29] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:31][35] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:32][31] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:32][36] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:35][32] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:35][19] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:35][37] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:35][38] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:35][39] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:55][34] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:55][23] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:56][33] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:56][40] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:10:56][38] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:10:57][41] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:01][39] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:01][36] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:01][35] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:01][42] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:01][44] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:01][43] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:08][45] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:15][40] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:16][41] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:16][27] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:16][46] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:16][23] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:17][47] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:17][37] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:17][48] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:21][43] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:21][49] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:27][45] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:27][50] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:32][27] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:32][51] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:35][46] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:35][52] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:38][44] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:38][53] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:39][48] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:39][54] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:39][42] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:40][55] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:43][49] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:44][56] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:56][51] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:56][57] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:56][47] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:56][58] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:11:58][52] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:11:58][59] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:06][50] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:06][60] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:16][55] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:16][54] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:16][58] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:16][61] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:17][63] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:17][62] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:18][59] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:18][64] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:21][53] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:22][65] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:39][62] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:39][66] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:39][63] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:39][67] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:45][60] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:45][68] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:46][64] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:46][69] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:48][66] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:48][70] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:51][67] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:52][71] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:56][72] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:12:58][68] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:12:58][73] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:00][65] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:00][74] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:03][69] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:03][75] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:03][61] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:03][76] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:08][77] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:15][71] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:15][56] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][72] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][57] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][73] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][78] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][75] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][79] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][74] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:28][77] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:29][80] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:29][81] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:29][76] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:29][82] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:31][56] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:31][83] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:45][78] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:45][84] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:46][80] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:47][85] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:47][79] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:47][81] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:47][86] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:47][87] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:48][82] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:48][88] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:48][57] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:48][89] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:13:54][83] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:13:54][90] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:00][84] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:00][91] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:00][92] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:01][87] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:01][86] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:01][93] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:01][94] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:01][85] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:01][95] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:03][90] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:03][96] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:10][89] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:10][97] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:10][91] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:10][98] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:10][88] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:10][99] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:10][93] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:11][94] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:11][95] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:11][100] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:11][101] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:11][102] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:11][92] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:11][103] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:12][96] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:12][104] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:14][97] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:14][105] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:15][98] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:15][106] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:15][99] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:16][107] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:22][100] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:22][101] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:22][70] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:22][108] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:25][104] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:25][109] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:25][102] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:25][110] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:33][106] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:33][111] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:33][103] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:33][112] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:33][107] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:33][113] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:37][105] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:37][114] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:39][108] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:39][115] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:40][70] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:40][116] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:43][110] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:43][117] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:43][109] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:43][118] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:46][111] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:46][119] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:46][113] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:46][120] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:48][114] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:48][121] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:51][116] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:51][122] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:51][115] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:51][123] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:51][112] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:51][124] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:59][117] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:59][125] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:14:59][118] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:14:59][126] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:15:01][119] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:01][127] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:15:03][121] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:03][120] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:03][128] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:15:03][129] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:15:11][124] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:11][130] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:15:12][122] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:12][125] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:12][131] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:15:12][132] Processing: App\Jobs\SendTaskEmail
+[2019-03-25 13:15:12][123] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:13][126] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:13][127] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:14][128] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:14][129] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:15][130] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:15][132] Processed:  App\Jobs\SendTaskEmail
+[2019-03-25 13:15:16][131] Processed:  App\Jobs\SendTaskEmail

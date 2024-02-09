@@ -1,0 +1,5 @@
+[
+	{"name":"Collection","description":"You are charging all Instructions COLLECTIVELY"},
+	{"name":"Individual","description":"You are charging each Instructions INDIVIDUALLY"},
+	{"name":"Both","description":"You are charging some Instructions COLLECTIVELY and others INDIVIDUALLY"}
+]
